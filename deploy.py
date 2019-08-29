@@ -1,10 +1,10 @@
-import requests
+# import requests
 from bs4 import BeautifulSoup
 import lxml
 import xml
 
-r = requests.get(url='https://www.google.com')
-print(r.headers)
+# r = requests.get(url='https://www.google.com')
+# print(r.headers)
 
 soup = BeautifulSoup("<p>Some<b>bad<i>HTML", "xml")
 print(soup.prettify())
